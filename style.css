@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  height: 905px;
+  background-position: top;
+}
+
+body .container{
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  padding: 60px;
+  color: white;
+  font-family: Arial, sans-serif;
+  border-radius: 15px;
+}
+
+header, nav{
+  text-align: center;
+}
+
+header .logo{
+  width: 200px;
+}
+
+header .title{
+  color: #00DD00;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+nav{
+  padding:10px;
+  background-color: #00DD00;
+  margin-bottom: 16px;
+}
+
+nav > button{
+  font-size: 10px;
+  padding: 0.5px 2px;
+}
+
+.section{
+  font-size: 11px;
+  margin-bottom: 16px;
+}
+
+.section input{
+  width: 9px;
+  margin-right: 3px;
+  vertical-align: text-bottom;
+}
+
+.section .title{
+  font-size: 17px;
+  display: inline-block;
+}
+
+.section p{
+  color: lightgrey;
+}
+
+.section .posizione::before{
+  content: "\21A6";
+  margin-right: 4px;
+}
+
+.section .posizione{
+  margin: 5px 0 3px;
+}
+
+.section .barra{
+  height: 20px;
+  border-radius: 4px;
+  margin-top: 3px;
+}
+
+.section .barra.gino{
+  width: 35%;
+  background-color: orange;
+}
+
+.section .barra.mike{
+  width: 60%;
+  background-color: #00DD00;
+}
+
+.section .barra.fede{
+  width: 15%;
+  background-color: #ff6666;
+}
